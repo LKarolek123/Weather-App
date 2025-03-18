@@ -1,0 +1,30 @@
+.weather-card {
+    padding: 20px;
+    background: #282c34;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    max-width: 300px;
+    margin: auto;
+}
+
+.city-list {
+    list-style: none;
+    padding: 0;
+}
+
+.city-list li {
+    margin-top: 5px;
+}
+
+.city-list button {
+    background: #444;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.city-list button:hover {
+    background: #666;
+}
